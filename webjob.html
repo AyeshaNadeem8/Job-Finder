@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+     
+    <!--job detail start-->
+    <table class="crud">
+      <tr>
+        <td>
+          <form onsubmit="onFormSubmit()">
+            <div>
+              <label for="companyname">Company Name</label>
+              <input type="text" name="companyname" id="companyname" />
+            </div>
+            <div>
+              <label for="companyname">Post Description</label>
+              <input type="text" name="postdes" id="postdes" />
+            </div>
+            <div class="form_action--button">
+              <input type="submit" value="Create">
+              <input type="reset" value="Reset">
+            </div>
+          </form>
+          <td>
+            <table class="list" id="storeList">
+              <thead>
+                <tr>
+                  <th>Company Name</th>
+                  <th>Post Description</th>
+                  <th>Actions (add data to display actions)</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <section id="job">
+      <div class="list">
+        <div class="list-detail">
+          <h2>Canonical</h2>
+          <p>Canonical was founded in 2004 and has since grown significantly, offering a variety of services to help organizations become more efficient in their operations while reducing overall costs. <br>
+            <a href="https://www.flexjobs.com/remote-jobs/company/canonical">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Atom Bank</h2>
+          <p>An award-winning FinTech firm, Atom Bank is the first app-based bank in the United Kingdom and is on a mission “to change online banking for the better. <br> 
+          <a href="https://www.flexjobs.com/remote-jobs/company/atom_bank">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>1POINT21 Interactive</h2>
+          <p>1POINT21 Interactive is a data visualization and content marketing agency helping brands increase visibility online by creating “share-worthy” content around topics that positively impact the world. <br>
+            <a href="https://www.flexjobs.com/remote-jobs/company/1point21_interactive">apply now!</a>
+          </p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Granicus</h2>
+          <p>Granicus is a computer software company that provides customized digital services for more than 4,500 government agencies and entities. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/company/granicus">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Robert Half International</h2>
+          <p>A professional staffing and consulting powerhouse, Robert Half International provides specialized financial recruitment services with a focus on accounting and finance, technology, legal, creative, marketing, and administration. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/company/robert_half_international">apply now!</a></p>
+        </div>
+      </div>
+      <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+    </section>
+    <!--job detail ends-->
+
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>

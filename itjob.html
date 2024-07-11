@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+
+<!--job detail start-->
+<table class="crud">
+  <tr>
+    <td>
+      <form onsubmit="onFormSubmit()">
+        <div>
+          <label for="companyname">Company Name</label>
+          <input type="text" name="companyname" id="companyname" />
+        </div>
+        <div>
+          <label for="companyname">Post Description</label>
+          <input type="text" name="postdes" id="postdes" />
+        </div>
+        <div class="form_action--button">
+          <input type="submit" value="Create">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+      <td>
+        <table class="list" id="storeList">
+          <thead>
+            <tr>
+              <th>Company Name</th>
+              <th>Post Description</th>
+              <th>Actions (add data to display actions)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+    </td>
+  </tr>
+</table>
+<section id="job">
+  <div class="list">
+    <div class="list-detail">
+      <h2>Systems integration engineer</h2>
+      <p>A system integration engineer uses digital communication and electronics to create and test engine control systems. They use model-based software tools to analyze various engine calibrations. Other responsibilities include integrating diverse systems and networks, troubleshooting and debugging computer systems and designing visuals of the inputs and outputs of technical systems. <br>
+      <a href="https://www.indeed.com/q-systems-integration-engineer-jobs.html?cgtk=39e92027-99e7-4789-ba69-de5f5a8e14c0&from=careeradvice-US&vjk=1fe32c793f5897ef">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2> Cloud engineer</h2>
+      <p>Cloud engineers evaluate the infrastructure of a business and migrate its technical functions to a cloud-based system. Other responsibilities are negotiating terms with system vendors, ensuring the data stored in the cloud is secure and using programming languages to properly migrate the systems. <br>
+      <a href="https://www.indeed.com/q-cloud-engineer-jobs.html?cgtk=39e92027-99e7-4789-ba69-de5f5a8e14c0&from=careeradvice-US&vjk=fe06aba7dff18cf3">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2> Data scientist</h2>
+      <p>Data scientists analyze large data sets to find trends and patterns. They use statistics and programming to evaluate raw data and input it into an easily understandable format for business leaders. Other responsibilities include creating learning models based on their research, helping organizations improve efficiency and devising algorithms to mine stored data. <br>
+      <a href="https://www.indeed.com/q-data-scientist-jobs.html?cgtk=39e92027-99e7-4789-ba69-de5f5a8e14c0&from=careeradvice-US">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Network architect</h2>
+      <p>Network architects design data communication networks for companies. They analyze business plans to understand the type of wireless and mobile networks a company needs. Other responsibilities include presenting network plans to leadership, upgrading hardware or network drivers and determining the placement and layout of hardware. <br>
+      <a href="https://www.indeed.com/q-site-network-architect-jobs.html?cgtk=39e92027-99e7-4789-ba69-de5f5a8e14c0&from=careeradvice-US">apply now!</a></p>
+    </div>
+  </div>
+  <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+</section>
+<!--job detail ends-->
+
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>

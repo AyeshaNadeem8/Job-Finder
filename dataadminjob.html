@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+<!--job detail start-->
+<table class="crud">
+  <tr>
+    <td>
+      <form onsubmit="onFormSubmit()">
+        <div>
+          <label for="companyname">Company Name</label>
+          <input type="text" name="companyname" id="companyname" />
+        </div>
+        <div>
+          <label for="companyname">Post Description</label>
+          <input type="text" name="postdes" id="postdes" />
+        </div>
+        <div class="form_action--button">
+          <input type="submit" value="Create">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+      <td>
+        <table class="list" id="storeList">
+          <thead>
+            <tr>
+              <th>Company Name</th>
+              <th>Post Description</th>
+              <th>Actions (add data to display actions)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+    </td>
+  </tr>
+</table>
+<section id="job">
+  <div class="list">
+    <div class="list-detail">
+      <h2>Criterion Systems, Inc.</h2>
+      <p>As a Data Management Administrator you will join the team supporting the mission of the Officer of the Chief Information Officer for a Federal government agency. Under the direction of the Project Manager and Program Technical Lead, the candidate will work with the customer’s Data Services team to operate and maintain their enterprise data platform in the Snowflake cloud data warehouse. <br>
+      <a href="https://www.indeed.com/q-Data-Administrator-l-Remote-jobs.html?vjk=3b164625d873c331">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Workiva</h2>
+      <p>Join Workiva's innovative team as a Senior Database Administrator, where you'll be at the forefront of shaping and maintaining our database infrastructure. This role offers the opportunity to drive best practices and collaborate across engineering teams to ensure the smooth operation of our systems. <br>
+      <a href="https://www.indeed.com/q-Data-Administrator-l-Remote-jobs.html?vjk=3b164625d873c331">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Tria Federal (Tria)</h2>
+      <p>Tria Federal (Tria) is the premier middle-market IT and Advisory services provider delivering digital transformation solutions to Civilian, Defense, and Intelligence agencies across the federal sector. With a future-forward vision and a mission rooted in service, we bridge capability gaps to help government agencies work faster, grow smarter, and stay nimble in the face of change. Wherever our customers are in their modernization journey, we are the trusted navigator on the path to possible.
+        Follow us on LinkedIn <br>
+      <a href="https://www.indeed.com/q-Data-Administrator-l-Remote-jobs.html?vjk=3b164625d873c331">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Wis Phys Svc Ins Corp</h2>
+      <p>Our Senior Microsoft SQL Server Database Administrator works on a dynamic team that installs, maintains, and safeguards Database Management System (DBMS) software and databases for WPS individuals and applications. WPS is working on the cutting edge of Microsoft SQL Server, utilizing new versions, tools, and techniques in our environment (currently on Microsoft SQL Server 2022). Our Database Administrator (DBA) assists with database performance and tuning duties and participate on project teams in an agile environment. After-hours production support activities are required for this role. <br>
+      <a href="https://www.indeed.com/q-Data-Administrator-l-Remote-jobs.html?vjk=3b164625d873c331">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Providencia Group</h2>
+      <p>The Providencia Group is led by a purpose: to address global challenges and make an impact that matters through delivering transformative solutions. This purpose defines who we are and extends to relationships with our clients, our people, and our communities. We combine purpose, innovation, and experience to deliver impactful results. <br>
+      <a href="https://www.indeed.com/q-Data-Administrator-l-Remote-jobs.html?vjk=3b164625d873c331">apply now!</a></p>
+    </div>
+  </div>
+  <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+</section>
+<!--job detail ends-->
+
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>

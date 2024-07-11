@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+
+<!--job detail start-->
+<table class="crud">
+  <tr>
+    <td>
+      <form onsubmit="onFormSubmit()">
+        <div>
+          <label for="companyname">Company Name</label>
+          <input type="text" name="companyname" id="companyname" />
+        </div>
+        <div>
+          <label for="companyname">Post Description</label>
+          <input type="text" name="postdes" id="postdes" />
+        </div>
+        <div class="form_action--button">
+          <input type="submit" value="Create">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+      <td>
+        <table class="list" id="storeList">
+          <thead>
+            <tr>
+              <th>Company Name</th>
+              <th>Post Description</th>
+              <th>Actions (add data to display actions)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+    </td>
+  </tr>
+</table>
+<section id="job">
+  <div class="list">
+    <div class="list-detail">
+      <h2>Jimdo</h2>
+      <p>We are seeking a dynamic Social Media Manager to develop and execute our social media strategy across multiple platforms. The ideal candidate will be responsible for creating engaging content, managing social media campaigns, and analyzing performance metrics to drive brand awareness and customer engagement. Strong communication skills and a deep understanding of social media trends are essential. Additionally, this role includes overseeing our TikTok agency to ensure alignment with our brand goals. <br>
+      <a href="https://remotive.com/remote-jobs/marketing/social-media-manager-1918418">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>1POINT21 Interactive</h2>
+      <p>1POINT21 Interactive is a data visualization and content marketing agency helping brands increase visibility online by creating “share-worthy” content around topics that positively impact the world. <br>
+        <a href="https://www.flexjobs.com/remote-jobs/company/1point21_interactive">apply now!</a>
+      </p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>ShopPad Inc.</h2>
+      <p>Director of Content Marketing & SEO (Hands-On Role)
+
+        MESA is the most flexible workflow automation platform in the Shopify App Store. We’re a young yet promising product that creates real value for Shopify merchants and enhances their lives. We’re looking for a multi-talented leader to head up the Marketing team and drive the next level of acquisition. Having conducted meaningful tests across various marketing channels, we believe a broad approach to long-tail Content Marketing is our clear path to hyper-growth. That’s where you come in. We’re seeking an experienced Content Marketing leader who excels at understanding complex technical concepts and translating them into clear, relatable terms. If you know “what works” for Content Marketing and SEO, can prioritize across many good ideas, and have a knack for writing engaging copy, managing SEO functions, leveraging data for strategic decisions, and making technical ideas accessible to a broad audience, you might be the perfect fit to lead our small but mighty Marketing team. <br>
+      <a href="https://remotive.com/remote-jobs/marketing/director-of-content-marketing-seo-1914648">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Fortis Games</h2>
+      <p>As an Analyst of User Acquisition here at Fortis, you will play a key part in driving user growth across our portfolio of games. This pivotal role combines the art of user acquisition creative testing with the science of paid advertising. It will require a blend of creativity, analytical prowess, and curiosity in the gaming landscape. You will be responsible for analyzing user behavior, identifying trends, and optimizing campaigns to maximize ROI and drive sustainable growth.<br>
+      <a href="https://remotive.com/remote-jobs/marketing/user-acquisition-analyst-1917712">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>Gameloft</h2>
+      <p>The Gameloft Kharkiv Studio have an exciting opportunity for a Senior Game Community Manager to integrate their team of community experts working on Minion Rush.
+
+        As a Senior Game Community Manager, you will join a team of passionate social media & community experts dedicated to building the most rewarding community experiences for our most engaged cohorts of players & fans of the game around the world!_ In this role, you will be dedicated to fostering healthy & thriving communities on a set of key channels for the game. Your main responsibilities will be defining, developing & managing the best community content & experiences, in order to keep them entertained & engaged with the game. As such, you will be working with a Junior Community Manager in caring for the game’s communities & funneling their feedback in order to support your game team in continuously improving our players' experiences. PASSION is key! For this position, we expect you to have an understanding of the ins-&-outs of gaming communities, & their importance within a game’s lifecycle. Also, it is needless to say that to be truly a great fit for this position, you should be a gamer at heart, with a hands-on understanding of the power of communities in the gaming realm, and a passion for all things Minions! <br>
+      <a href="https://remotive.com/remote-jobs/marketing/senior-game-community-manager-1917114">apply now!</a></p>
+    </div>
+  </div>
+  <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+</section>
+<!--job detail ends-->
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>

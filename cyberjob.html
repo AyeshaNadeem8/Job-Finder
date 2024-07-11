@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+
+<!--job detail start-->
+<table class="crud">
+  <tr>
+    <td>
+      <form onsubmit="onFormSubmit()">
+        <div>
+          <label for="companyname">Company Name</label>
+          <input type="text" name="companyname" id="companyname" />
+        </div>
+        <div>
+          <label for="companyname">Post Description</label>
+          <input type="text" name="postdes" id="postdes" />
+        </div>
+        <div class="form_action--button">
+          <input type="submit" value="Create">
+          <input type="reset" value="Reset">
+        </div>
+      </form>
+      <td>
+        <table class="list" id="storeList">
+          <thead>
+            <tr>
+              <th>Company Name</th>
+              <th>Post Description</th>
+              <th>Actions (add data to display actions)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+    </td>
+  </tr>
+</table>
+<section id="job">
+  <div class="list">
+    <div class="list-detail">
+      <h2>Advocates for Human Potential</h2>
+      <p>Advocates for Human Potential (AHP) is seeking a Cybersecurity Engineer implement and optimize our cybersecurity operations. Your responsibilities will include managing compliance requirements and implementing technological controls to ensure the company remains compliant. You will also be involved in managing security alerts from various security platforms and taking guided action when incidents arise, along with interacting with and managing various vendors the company engages with. Your cybersecurity expertise, problem-solving skills, and attention to detail will be critical in improving the company's security posture as we continue to grow. <br>
+      <a href="https://www.glassdoor.com/Overview/Working-at-Advocates-for-Human-Potential-EI_IE947641.11,40.htm">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>M&T Bank</h2>
+      <p>The Bank sponsors individuals for TN and H-1B transfers on a case by case basis. Please note that this position is not open to anyone on an F-1 student visa including those eligible for CPT/OPT or the Stem OPT extension.
+        At M&T Tech, we’re a team of makers, doers, and builders, working to create the most advanced technology solutions in banking. We’re not your stereotypical suit and tie bankers: we’re an innovative team of leading tech experts, pushing boundaries, and taking risks. We’re building an agile team of the most skilled and creative workers to solve complex problems, architect solutions, write high-performance software, and chart our new path, all to make the lives of our customers, and the communities that we serve, better. Join us and be part of something new as we build tomorrow’s bank, today. <br>
+      <a href="https://www.glassdoor.com/Overview/Working-at-M-and-T-Bank-EI_IE858.11,23.htm">apply now!</a></p>
+    </div>
+  </div>
+  <div class="list">
+    <div class="list-detail">
+      <h2>US Deaprtment of Homeland Security</h2>
+      <p>This announcement is being used to fill the Cybersecurity Threat Analysis Talent Pool. By applying to this job announcement, you are opting to be part of the DHS-CS Talent Pool for ongoing consideration for employment for relevant open jobs and will remain eligible for consideration for up to one year from the date of completion.<br>
+      <a href="https://www.glassdoor.com/Overview/Working-at-US-Department-of-Homeland-Security-EI_IE34085.11,45.htm">apply now!</a></p>
+    </div>
+  </div>
+  <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+</section>
+<!--job detail ends-->
+
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>

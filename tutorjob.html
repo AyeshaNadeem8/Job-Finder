@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explorejobs</title>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!--js ile link-->
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <nav class="navbar">
+              <a class="navbar-brand">
+                <img src="images/logo.jpeg" alt="logo">
+                Skill Bridge - Pro Jobs Finder
+              </a>
+              <ul class="nav-tabs ">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">REGISTER</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="explorejobs.html">EXPLOREJOB</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+      <!--header ends-->
+
+     <!--job detail start-->
+     <table class="crud">
+      <tr>
+        <td>
+          <form onsubmit="onFormSubmit()">
+            <div>
+              <label for="companyname">Company Name</label>
+              <input type="text" name="companyname" id="companyname" />
+            </div>
+            <div>
+              <label for="companyname">Post Description</label>
+              <input type="text" name="postdes" id="postdes" />
+            </div>
+            <div class="form_action--button">
+              <input type="submit" value="Create">
+              <input type="reset" value="Reset">
+            </div>
+          </form>
+          <td>
+            <table class="list" id="storeList">
+              <thead>
+                <tr>
+                  <th>Company Name</th>
+                  <th>Post Description</th>
+                  <th>Actions (add data to display actions)</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+    <section id="job">
+      <div class="list">
+        <div class="list-detail">
+          <h2> University of Massachusetts</h2>
+          <p>The University of Massachusetts (UMass) is a public research university located in Boston, Massachusetts, that provides high-quality and cost-efficient degree programs for state residents and worldwide enrollees. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/USA/Massachusetts">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>ArborBridge</h2>
+          <p>ArborBridge offers online and in-person tutoring services with a mission to help students around the world connect with talented, elite tutors for academic tutoring, high school entrance exams, and test preparation. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/test-prep">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Franklin University</h2>
+          <p>Franklin University is an independent, nonprofit institution focused on providing its students, who are working adults, with the necessary tools to make the most of their educational and professional opportunities and achieve their goals. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/education">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>PrepScholar</h2>
+          <p>PrepScholar is an e-learning platform that specializes in education technology, test preparation, and machine learning. The company offers tailored programs designed to target and overcome individual learning strengths and weaknesses. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/elearning">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>StudyPoint</h2>
+          <p>StudyPoint was established to give families a better choice in learning centers and provides online tutoring services to students in the United States and internationally. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/learning">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Tokyo Academics</h2>
+          <p>Tokyo Academics (TA) is a tutoring and learning center offering test preparation, college admission, and mentoring services for primary and secondary school students. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/admissions">apply now!</a></p>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-detail">
+          <h2>Varsity Tutors</h2>
+          <p>Varsity Tutors, a Nerdy company, is a nationally recognized company on a mission to connect students with personalized tutoring services in both academic and test prep subject areas. <br>
+          <a href="https://www.flexjobs.com/remote-jobs/academic">apply now!</a></p>
+        </div>
+      </div>
+      <h2>You can explore more jobs on <a href="https://www.linkedin.com">LinkedIn</a></h2>
+      <h2>You can explore more jobs on <a href="https://pk.indeed.com/?r=us">Indeed</a></h2>
+      <h2>You can explore more jobs on <a href="https://www.theladders.com/">Ladders</a></h2>
+    </section>
+    <!--job detail ends-->
+
+        <!--footer starts-->
+<footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="home.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="explorejobs.html">ExploreJob</a>
+    </div>
+    </div>
+</footer>
+<!--footer ends-->
+</body>
+</html>
